@@ -1,48 +1,45 @@
-Flutter Notes App
+# Flutter Notes App
+
 Aplikasi catatan sederhana built dengan Flutter dan Dart.
 
-🚀 Fitur
-✅ Create, Read, Update, Delete Notes
+## 🚀 Fitur
+- ✅ Create, Read, Update, Delete Notes
+- ✅ State Management dengan Provider
+- ✅ Navigasi antara halaman
+- ✅ Stateless & Stateful Widgets
+- ✅ Responsive UI
 
-✅ State Management dengan Provider
+## 👥 Anggota Kelompok
+- May Syesa R - UI Layer & Presentasi
+- Nancy Akisya N - State Management & Business Logic
 
-✅ Navigasi antara halaman
+## 🛠️ Teknologi
+- Flutter 3.x
+- Dart
+- Provider (State Management)
+- Material Design
 
-✅ Stateless & Stateful Widgets
+## 📸 Screenshots
+![Home Screen](screenshots/home.png)
+![Add Note Screen](screenshots/add_note.png)
 
-✅ Responsive UI
-
-👥 Anggota Kelompok
-May Syesa R - UI Layer & Presentasi
-
-Nancy Akisya N - State Management & Business Logic
-
-🛠️ Teknologi
-Flutter 3.x
-
-Dart
-
-Provider (State Management)
-
-Material Design
-
-📸 Screenshots
-https://screenshots/home.png
-https://screenshots/add_note.png
-
-🏃‍♂️ Menjalankan Aplikasi
+## 🏃‍♂️ Menjalankan Aplikasi
+```bash
 flutter pub get
 flutter run
+```
 
-📁 Struktur Project
+## 📁 Struktur Project
+```
 lib/
 ├── main.dart
 ├── models/
-│ └── note_model.dart
+│   └── note_model.dart
 ├── providers/
-│ └── note_provider.dart
+│   └── note_provider.dart
 ├── pages/
-│ ├── home_page.dart
-│ └── add_note_page.dart
+│   ├── home_page.dart
+│   └── add_note_page.dart
 └── widgets/
-└── note_card.dart
+    └── note_card.dart
+```
